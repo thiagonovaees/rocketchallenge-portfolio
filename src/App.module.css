@@ -1,0 +1,11 @@
+.wrapper {
+  max-width: 85rem;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 388px 1fr;
+}
+
+.projectCard {
+  display: flex;
+  gap: 30px;
+}

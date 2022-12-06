@@ -1,0 +1,20 @@
+.experiences {
+  padding-top: 32px;
+  background-color: var(--bg-cards);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin: 2.5rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.experiences strong {
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.experiencesCard {
+  padding-top: 20px;
+  display: flex;
+}

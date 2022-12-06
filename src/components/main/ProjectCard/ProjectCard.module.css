@@ -1,0 +1,59 @@
+.projectCard {
+  border-radius: 20px;
+  background-color: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  padding: 30px;
+  padding-top: 30px;
+}
+
+.projectCard header {
+  display: flex;
+  align-items: center;
+}
+
+.projectCard strong {
+  margin-left: 16px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.projectCard span {
+  margin: 0 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.projectCard main {
+  margin: 22px 0;
+}
+
+.projectCard footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialFooter {
+  display: flex;
+  gap: 8px;
+  align-content: center;
+}
+
+.socialFooter section {
+  display: flex;
+  align-content: center;
+}
+
+.socialFooter .tech {
+  display: flex;
+  align-items: center;
+}
+
+.socialFooter .circle {
+  border: 1px solid var(--text-color);
+}

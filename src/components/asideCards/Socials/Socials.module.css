@@ -1,0 +1,29 @@
+.socials {
+  padding: 34px 40px;
+  background-color: var(--bg-cards);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin: 2.5rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.socials ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 20px;
+}
+
+.socials li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.socials span {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+}

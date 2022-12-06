@@ -1,0 +1,31 @@
+.avatar {
+  padding-top: 32px;
+  background-color: var(--bg-cards);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  margin: 0 2.5rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.avatarImg {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: 2px solid #00ff00;
+}
+
+.avatar strong {
+  padding-top: 30px;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.avatar span {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 1rem;
+  padding-top: 10px;
+  padding-bottom: 49px;
+}
